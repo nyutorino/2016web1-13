@@ -1,7 +1,7 @@
 var thmubs = document.querySelectorAll('.thumb');
 for(idx in thmubs){
     thmubs[idx].onclick = function(){
-        document.getElementById("bigimg").src = 'img/' + this.dataset.image + '.jpg';
+        document.getElementById("bigimg").src = '' + this.dataset.image + '.png';
     }
 }
 // クッキー保存　(クッキー名, クッキーの値, クッキーの有効日数)
